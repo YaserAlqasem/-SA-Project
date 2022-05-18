@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProductService/ProductService.iml" filepath="$PROJECT_DIR$/ProductService/ProductService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShoppingCartCommandService/ShoppingCartCommandService.iml" filepath="$PROJECT_DIR$/ShoppingCartCommandService/ShoppingCartCommandService.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShoppingCartQueryService/ShoppingCartQueryService.iml" filepath="$PROJECT_DIR$/ShoppingCartQueryService/ShoppingCartQueryService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WebShop.iml" filepath="$PROJECT_DIR$/.idea/WebShop.iml" />
     </modules>

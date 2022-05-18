@@ -7,17 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ShoppingCartQueryService" />
+        <module name="ShoppingCartCommandService" />
         <module name="ProductService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ProductService" target="17" />
+      <module name="ShoppingCartCommandService" target="17" />
       <module name="ShoppingCartQueryService" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ProductService" options="-parameters" />
+      <module name="ShoppingCartCommandService" options="-parameters" />
       <module name="ShoppingCartQueryService" options="-parameters" />
     </option>
   </component>
