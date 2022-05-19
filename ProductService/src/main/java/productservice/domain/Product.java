@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Getter
 @Setter
 @ToString
-@Document
+@Document("product")
 public class Product {
     @Id
     private String productNumber;

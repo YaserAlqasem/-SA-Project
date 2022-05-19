@@ -63,21 +63,16 @@ public class CheckoutSubscriber {
 		}
 	}
 
-	public void timeoutFallBack()
-	{
-		//do logging
-	}
-
 	@FeignClient("customer-service")
 	interface CustomerFeignClient {
 
 		@RequestMapping("customer/{customerId}")
 		public CustomerInfo getCustomer(@PathVariable String customerId);
 	}
-	@FeignClient("product-service")
-	interface ProductFeignClient {
-
-		@RequestMapping("products/{productId}")
-		public CustomerInfo getProduct(@PathVariable String productId);
-	}
+//	@FeignClient("product-service")
+//	interface ProductFeignClient {
+//
+//		@RequestMapping("products/{productId}")
+//		public CustomerInfo getProduct(@PathVariable String productId);
+//	}
 }

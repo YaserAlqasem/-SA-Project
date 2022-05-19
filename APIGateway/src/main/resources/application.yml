@@ -38,4 +38,4 @@ zuul:
       stripPrefix: true
 
 ribbon:
-  ReadTimeout=100000:
+  ReadTimeout=100000
